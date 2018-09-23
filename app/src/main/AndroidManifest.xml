@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cs.b07.phase3">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/airplane"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FlightScreens.EditFlightActivity" />
+        <activity android:name=".AdminScreens.UploadClientsActivity" />
+        <activity android:name=".FlightScreens.SearchFlightActivity" />
+        <activity android:name=".AdminScreens.UploadFlightsActivity" />
+        <activity android:name=".ClientScreens.MenuActivity" />
+        <activity android:name=".FlightScreens.SearchItinerariesActivity" />
+        <activity android:name=".ClientScreens.ViewItinerariesActivity" />
+        <activity android:name=".ClientScreens.EditInfoActivity" />
+        <activity android:name=".AdminScreens.AdminActivity" />
+        <activity android:name=".AdminScreens.SearchClientActivity" />
+        <activity
+            android:name=".Login.LoginActivity"
+            android:label="Phase3"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FlightScreens.DisplayItinerariesTime" />
+        <activity android:name=".FlightScreens.DisplayItinerariesCost" />
+        <activity android:name=".FlightScreens.DisplayFlight" />
+        <activity android:name=".FlightScreens.DisplayFlightsCost"></activity>
+    </application>
+
+</manifest>

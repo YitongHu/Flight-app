@@ -1,0 +1,80 @@
+Wednesday November 25th
+
+Status of project:
+	- Implemented creating a user activity
+
+To do:
+	- everything
+
+App plan:
+
+1) Open application -> login/sign up
+
+		 -> login -> match user and password -> distinguish between user and admin
+		 -> sign up -> go to sign up screen -> save in csv file
+
+2) If user, options are: 
+		 -> search flights given depature date, destination.. -> given an option, can select one -> choose to save
+		 -> change their info
+		 -> check their booked flights
+
+   If admin, options are: 
+		 -> search flights
+                 -> search client: given email/user -> choose to edit
+						    -> choose to book flights
+                 -> can upload data from csv file
+
+Calvin:
+	- Client 
+
+Yitong:
+	- Flight display screens
+		- 1) a list of itineraries 
+		-> user selects a itinerary
+		- 2) Displays flights, has option to book
+
+Yeo:
+	- Fix java files algorithm, backend
+
+Vithusan:
+	- Admin screens
+
+Hassan:
+	- Login and password screens
+		- 1) Inital screen
+		- 2) work on launching of the application
+
+
+Everyone: 
+	- learn how to save stuff in android
+	- minimum, the interface must be done, even if the backend is not functional for the screens
+
+Next meeting: Sunday, November 29th
+
+
+Sunday November, 29th
+
+To do:
+	- CRC Cards
+	- Connecting of activities
+	- Driver File
+
+Everyone implement the backend of their own screen, will be connected on Wednesday.
+Yeo: test algorithm thoroughly
+
+CRC cards can be finished at the end.
+
+Next meeting: Wednesday December 2nd
+
+
+Wednesday, December 2nd
+
+Status of project:
+	- Login authentication from csv file working (Client)
+	- Connected Client menu to login screen
+	- Updated P2 classes, to be added to P3 folder
+
+To do:
+	- CRC Cards
+	- Still need to connect Admin login and searching for flights/itineraries
+	- Sort itineraries by cost/time activities, add buttons to make them selectable
